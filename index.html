@@ -99,6 +99,36 @@
 								</li>
 							</nav>
 						</div>
+						<div class="mobile-menu">
+							<nav class="mobile-nav">
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">О компании</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Внедрение</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Партнеры</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Цены</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Блог</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">CRM и продажи</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Задачи и проекты</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Мультиворонка</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Мультиворонка</a></li>
+								<li class="mobile__item dropdown__link" id="dropdown-numbers">
+									<a href="#" class="modile__link" herf="#">Номера</a>
+									<div class="dropdown-block" id="dropdown-block-1">
+										<a href="#" class="dropdown__item">Москва: +7 (495) 145-21-55</a>
+										<a href="#" class="dropdown__item">СПб: +7 (812) 608-68-89</a>
+									</div>
+								</li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Сквозная аналитика</a></li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Коллбек</a></li>
+								<li class="mobile__item dropdown__link" id="dropdown-integer">
+									<a href="#" class="modile__link" herf="#">Интеграции</a>
+									<div class="dropdown-block" id="dropdown-block-2">
+										<a href="#" class="dropdown__item">Москва: +7 (495) 145-21-55</a>
+										<a href="#" class="dropdown__item">СПб: +7 (812) 608-68-89</a>
+									</div>
+								</li>
+								<li class="mobile__item"><a href="#" class="modile__link" herf="#">Помощь</a></li>
+							</nav>
+						</div>
 					</div>
 				</div>
 				<div class="wrap__item">
@@ -108,6 +138,10 @@
 						</span>
 					</div>
 					<button class="button header__button">Войти</button>
+					<a href="#" class="nav__link nav__lines mobile-dropdown">
+						<span class="nav__line line-1"></span>
+						<span class="nav__line line-2"></span>
+					</a>
 				</div>
 			</div>
 			<!-- /.header__wrap -->
@@ -115,13 +149,14 @@
 		<!-- /.container -->
 	</header>
 	<!-- /.header -->
-	<div class="hero">
+	<section class="hero">
 		<div class="container">
-			<div class="hero__title">
-				<h1>5CRM система для управления бизнесом</h1>
+			<div class="hero-content">
+				<div class="hero__title">
+					<h1>5CRM система для управления бизнесом</h1>
+				</div>
+				<form action="" class="form hero__form"><input type="email" placeholder="Оставьте свой  e-mail"><input type="submit" value="Создать бесплатно" class="button form__button"></form>
 			</div>
-			<form action="" class="form hero__form"><input type="email" placeholder="Оставьте свой  e-mail"><input type="submit" value="Создать бесплатно" class="button form__button"></form>
-			
 		</div>
 		<!-- /.container -->
 		<div class="rectangle rec-1"></div>
@@ -129,8 +164,157 @@
 		<div class="rectangle rec-3"></div>
 		<div class="rectangle rec-4"></div>
 		<div class="circle"></div>
-	</div>
-	<!-- /.header -->
+	</section>
+	<!-- /.hero -->
+	<section class="about">
+		<div class="container">
+			<div class="about-wrap">
+				<div class="about__item">
+					<h2 class="about__title">5 CRM система - это...</h2>
+					<div class="about-blocks">
+						<div class="about__block">
+							<div class="block__item box">
+								<h4 class="block__title">Клиенты и продажи</h4>
+								<p class="block__text">Фиксация всех звонков и заявок. Ведение клиента по воронке продаж.</p>
+							</div>
+							<div class="block__item box">
+								<h4 class="block__title">Реклама и конверсии</h4>
+								<p class="block__text">Расходы и окупаемость рекламных кампаний. С точностью до запроса.</p>
+							</div>
+						</div>
+						<div class="about__block">
+							<div class="block__item box">
+								<h4 class="block__title">Задачи и проекты</h4>
+								<p class="block__text">Этапы проектов, сроки, промежуточные результаты в режиме реального врмени.</p>
+							</div>
+							<div class="block__item box">
+								<h4 class="block__title">Аналитика и kpi</h4>
+								<p class="block__text">Контроль работы бизнес-процессов и оценка их эффективности.</p>
+							</div>
+						</div>
+					</div>
+					<div class="about__description">и многое другое...</div>
+				</div>
+				<div class="about__item">
+					<img src="img/macbook-front.png" alt="" class="macbook__image img-responsive">
+					<div class="video-block">
+						<p class="video__title">Посмотрите небольшой ролик чтобы узнать о 5CRM</p>
+						<div class="video-play">
+							<img src="img/youtube button.png" alt="" class="play__button">
+							<span class="play__text">Смотреть за 60 секунд</span>
+						</div>
+						<div class="rectangle rec-5"></div>
+						<div class="rectangle rec-6"></div>
+						<div class="rectangle rec-7"></div>
+						<div class="video-line-1"></div>
+					</div>
+					<a href="#" class="free__link">Попробуйте бесплатную версию</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="clients">
+		<div class="container">
+			<div class="clients__subtitle">универсальная система для:</div>
+			<div class="clients-menu">
+				<span class="clients-menu__item clients-menu__item--active" id="menu-1">Управления</span>
+				<span class="clients-menu__item" id="menu-2">Продаж</span>
+				<span class="clients-menu__item" id="menu-3">Маркетинга</span>
+			</div>
+			<div class="clients__items clients__items--show" id="management">
+				<div class="clients__item">
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Разграничение доступа</h3>
+						<p class="clients__block-text">Несмотря на то, что 5CRM - это единая программа для работы всей компании, вы можете предоставлять доступ отдельным сотрудникам в те или иные базы данных. Например, менеджер не сможет “увести” всех клиентов при уходе из компании.</p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Тайм-менеджмент</h3>
+						<p class="clients__block-text">Назначайте встречи и приглашайте нужных сотрудников. Обозначайте повестку совещания и давайте задания на подготовку по интересующим вопросам. Для большей эффективности можно разослать всем участникам напоминания за 15 минут до встречи.</p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Мотивация персонала</h3>
+						<p class="clients__block-text">Выберите нужные показатели для подсчета эффективности подразделений. Установите в программе сколько должен сделать звонков, встреч и сделок каждый менеджер и отслеживайте его эффективность.</p>
+					</div>				
+				</div>
+				<div class="clients__item">
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Контроль достижения целей.</h3>
+						<p class="clients__block-text">Можно следить за загрузкой сотрудников и выбирать более свободных для постановки новых задач. Если для выполнения задания нужны несколько разнопрофильных специалистов, объедините их в одной карточке задачи.</p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Общая картина</h3>
+						<p class="clients__block-text">Вы видите сколько на данный момент запросов в обработке, на какой стадии и кто ими занимается. Соберите свою панель управления бизнесом, выделив наиболее важные показатели.</p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Качество работы</h3>
+						<p class="clients__block-text">Ставьте индивидуальные KPI и следите за их выполнением. Все звонки и переписка хранятся в карточке сделки. Всегда можно определить кто из сотрудников общался с клиентом и насколько качественно оказал услугу. </p>
+					</div>
+				</div>
+			</div>
+			<div class="clients__items" id="sale">
+				<div class="clients__item">
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Общая картина</h3>
+						<p class="clients__block-text">Вы видите сколько на данный момент запросов в обработке, на какой стадии и кто ими занимается. Соберите свою панель управления бизнесом, выделив наиболее важные показатели.</p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Качество работы</h3>
+						<p class="clients__block-text">Ставьте индивидуальные KPI и следите за их выполнением. Все звонки и переписка хранятся в карточке сделки. Всегда можно определить кто из сотрудников общался с клиентом и насколько качественно оказал услугу. </p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Контроль достижения целей.</h3>
+						<p class="clients__block-text">Можно следить за загрузкой сотрудников и выбирать более свободных для постановки новых задач. Если для выполнения задания нужны несколько разнопрофильных специалистов, объедините их в одной карточке задачи.</p>
+					</div>
+				</div>
+				<div class="clients__item">
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Разграничение доступа</h3>
+						<p class="clients__block-text">Несмотря на то, что 5CRM - это единая программа для работы всей компании, вы можете предоставлять доступ отдельным сотрудникам в те или иные базы данных. Например, менеджер не сможет “увести” всех клиентов при уходе из компании.</p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Тайм-менеджмент</h3>
+						<p class="clients__block-text">Назначайте встречи и приглашайте нужных сотрудников. Обозначайте повестку совещания и давайте задания на подготовку по интересующим вопросам. Для большей эффективности можно разослать всем участникам напоминания за 15 минут до встречи.</p>
+					</div>
+					<div class="clients__item-block">
+						<h3 class="clients__block-title">Мотивация персонала</h3>
+						<p class="clients__block-text">Выберите нужные показатели для подсчета эффективности подразделений. Установите в программе сколько должен сделать звонков, встреч и сделок каждый менеджер и отслеживайте его эффективность.</p>
+					</div>
+				</div>
+			</div>
+			<div class="clients__items" id="marketing">
+					<div class="marketing__item-block">
+						<img src="img/icon-marketing (1).svg" alt="" class="marketing__icon">
+						<h3 class="marketing__block-title">Учет</h3>
+						<p class="marketing__block-text">Учет всех видов обращений — звонков, онлайн-заявок, чатов, корзин и пр.</p>
+					</div>
+					<div class="marketing__item-block">
+						<img src="img/icon-marketing (2).svg" alt="" class="marketing__icon">
+						<h3 class="marketing__block-title">100% контроль</h3>
+						<p class="marketing__block-text">Автоматический скоринг и оценка тональности телефонных обращений</p>
+					</div>
+					<div class="marketing__item-block">
+						<img src="img/icon-marketing (3).svg" alt="" class="marketing__icon">
+						<h3 class="marketing__block-title">Сквозная аналитика</h3>
+						<p class="marketing__block-text">Полноценная воронка конверсий от показов рекламы до продаж и ROI</p>
+					</div> 
+					<div class="marketing__item-block">
+						<img src="img/icon-marketing (4).svg" alt="" class="marketing__icon">
+						<h3 class="marketing__block-title">Точность</h3>
+						<p class="marketing__block-text">Точные данные об эффективности рекламных каналов, кампаний и ключевых слов</p>
+					</div>
+			</div>
+			<div class="rectangle rec-8"></div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
 	<script src="js/scripts.min.js"></script>
 	<script src="js/common.min.js"></script>
 
