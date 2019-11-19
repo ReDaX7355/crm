@@ -14,23 +14,12 @@ $(document).ready(function() {
 			$('body').toggleClass('body--overflow-hidden');
 		});
 
-	// $(window).resize(function(event) {
-	// 	if( $(window).width() >= 1100 ) {
-	// 		$('.nav__lines').on('click', function(){
-	// 			$('.line-1').toggleClass('line-1--active');
-	// 			$('.line-2').toggleClass('line-2--active');
-	// 			$('.main-nav').toggleClass('main-nav--active');
-	// 			$('body').toggleClass('body--overflow-hidden');
-	// 		});
-	// 	} else{
-	// 		$('.mobile-dropdown').on('click', function(){
-	// 			$('.line-1').toggleClass('line-1--active');
-	// 			$('.line-2').toggleClass('line-2--active');
-	// 			$('.mobile-menu').toggleClass('mobile-menu--active');
-	// 			$('body').toggleClass('body--overflow-hidden');
-	// 		});
-	// 	}
-	// });
+	$(window).resize(function(event) {
+		if ( $(window).width() < 1100 ){
+			$('body').removeAttr('class')
+		}
+	});
+
 	
 	$('#dropdown-numbers').on('click', function(){
 		$('#dropdown-block-1').toggleClass('dropdown-block-1--active');
