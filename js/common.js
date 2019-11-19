@@ -6,9 +6,10 @@ $(document).ready(function() {
 			$('.main-nav').toggleClass('main-nav--active');
 			$('body').toggleClass('body--overflow-hidden');
 		});
+		
 		$('.mobile-dropdown').on('click', function(){
-			$('.line-1').toggleClass('line-1--active');
-			$('.line-2').toggleClass('line-2--active');
+			$('.mobile__line-1').toggleClass('mobile__line-1--active');
+			$('.mobile__line-2').toggleClass('mobile__line-2--active');
 			$('.mobile-menu').toggleClass('mobile-menu--active');
 			$('body').toggleClass('body--overflow-hidden');
 		});
