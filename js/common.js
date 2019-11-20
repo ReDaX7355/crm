@@ -65,4 +65,24 @@ $(document).ready(function() {
 			}
 			]
 		});
+
+		$('.comments-slider').slick({
+			infinite: false,
+			arrows: false,
+			slidesToShow: 3,
+			responsive: [
+			{
+				breakpoint: 1000,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 550,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+			]
+		});
 	});
